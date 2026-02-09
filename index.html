@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SwiftRide Scooter Rentals | Fast, Flexible City Scooters</title>
+    <meta
+      name="description"
+      content="Rent a modern scooter in minutes. Flexible hourly, daily, and weekly plans with helmets included. Fast pickup and WhatsApp booking."
+    />
+    <meta property="og:title" content="SwiftRide Scooter Rentals" />
+    <meta
+      property="og:description"
+      content="Fast pickup, daily/weekly deals, and easy WhatsApp booking for city scooter rentals."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='50' font-size='48'%3E%F0%9F%9B%B4%EF%B8%8F%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="alternate" hreflang="en" href="#" />
+    <link rel="alternate" hreflang="fr" href="#" />
+    <link rel="alternate" hreflang="ar" href="#" />
+    <link rel="alternate" hreflang="pl" href="#" />
+    <link rel="alternate" hreflang="cs" href="#" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#home" data-i18n="skipToContent">Skip to content</a>
+    <header class="site-header" id="home">
+      <div class="container header-inner">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">🛴</span>
+          <span class="brand-name" data-i18n="brandName">SwiftRide</span>
+        </div>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#home" data-i18n="navHome">Home</a>
+          <a href="#pricing" data-i18n="navPricing">Pricing</a>
+          <a href="#how" data-i18n="navHow">How it works</a>
+          <a href="#location" data-i18n="navLocation">Location</a>
+          <a href="#faq" data-i18n="navFaq">FAQ</a>
+          <a href="#contact" data-i18n="navContact">Contact</a>
+        </nav>
+        <div class="lang-switcher" role="group" aria-label="Language switcher">
+          <button type="button" data-lang="en">EN</button>
+          <button type="button" data-lang="fr">FR</button>
+          <button type="button" data-lang="ar">AR</button>
+          <button type="button" data-lang="pl">PL</button>
+          <button type="button" data-lang="cs">CS</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow" data-i18n="heroEyebrow">City scooter rentals</p>
+            <h1 data-i18n="heroTitle">Zip through the city in minutes.</h1>
+            <p class="lead" data-i18n="heroSubtitle">
+              Book a clean, reliable scooter with WhatsApp in seconds. Flexible plans and
+              helmets included.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" id="hero-whatsapp" href="#" data-i18n="ctaWhatsapp">
+                WhatsApp us
+              </a>
+              <a class="btn ghost" id="hero-call" href="#" data-i18n="ctaCall">
+                Call now
+              </a>
+            </div>
+            <ul class="hero-bullets">
+              <li data-i18n="bulletFast">Fast pickup</li>
+              <li data-i18n="bulletDeals">Daily/Weekly deals</li>
+              <li data-i18n="bulletHelmets">Helmets included</li>
+            </ul>
+          </div>
+          <div class="hero-card">
+            <div class="stat">
+              <h3 data-i18n="heroCardTitle">Ready in 5 minutes</h3>
+              <p data-i18n="heroCardBody">
+                Reserve by phone or WhatsApp and pick up at our downtown hub.
+              </p>
+            </div>
+            <div class="hero-tags">
+              <span data-i18n="heroTag1">No deposits</span>
+              <span data-i18n="heroTag2">All-day support</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="pricing">
+        <div class="container">
+          <div class="section-title">
+            <h2 data-i18n="pricingTitle">Simple pricing</h2>
+            <p data-i18n="pricingSubtitle">
+              Transparent plans for quick rides or longer adventures.
+            </p>
+          </div>
+          <div class="cards">
+            <article class="card">
+              <h3 data-i18n="pricingHourly">Hourly</h3>
+              <p class="price">$8</p>
+              <p class="muted" data-i18n="pricingHourlyNote">Perfect for quick errands.</p>
+            </article>
+            <article class="card featured">
+              <h3 data-i18n="pricingDaily">Daily</h3>
+              <p class="price">$28</p>
+              <p class="muted" data-i18n="pricingDailyNote">Best for city exploring.</p>
+            </article>
+            <article class="card">
+              <h3 data-i18n="pricingWeekly">Weekly</h3>
+              <p class="price">$120</p>
+              <p class="muted" data-i18n="pricingWeeklyNote">Great for commuters.</p>
+            </article>
+          </div>
+          <p class="small-note" data-i18n="pricingDisclaimer">
+            Prices are examples. Update them anytime in minutes.
+          </p>
+        </div>
+      </section>
+
+      <section class="section alt" id="how">
+        <div class="container">
+          <div class="section-title">
+            <h2 data-i18n="howTitle">How it works</h2>
+            <p data-i18n="howSubtitle">Three easy steps from booking to riding.</p>
+          </div>
+          <div class="steps">
+            <article class="step">
+              <div class="icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" role="img" aria-hidden="true">
+                  <circle cx="15" cy="34" r="6" fill="currentColor" />
+                  <circle cx="35" cy="34" r="6" fill="currentColor" />
+                  <path
+                    d="M10 14h14l4 12h8"
+                    stroke="currentColor"
+                    stroke-width="4"
+                    fill="none"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <h3 data-i18n="howStep1Title">Choose a scooter</h3>
+              <p data-i18n="howStep1Body">
+                Pick the model and plan that matches your ride.
+              </p>
+            </article>
+            <article class="step">
+              <div class="icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" role="img" aria-hidden="true">
+                  <rect x="8" y="10" width="32" height="28" rx="4" fill="currentColor" />
+                  <path
+                    d="M16 24h16"
+                    stroke="#fff"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <h3 data-i18n="howStep2Title">Confirm on WhatsApp</h3>
+              <p data-i18n="howStep2Body">
+                Send your time and ID, we reply instantly.
+              </p>
+            </article>
+            <article class="step">
+              <div class="icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" role="img" aria-hidden="true">
+                  <path
+                    d="M10 28l8 8 20-20"
+                    stroke="currentColor"
+                    stroke-width="4"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3 data-i18n="howStep3Title">Pick up &amp; ride</h3>
+              <p data-i18n="howStep3Body">
+                Grab your helmet and hit the road safely.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="location">
+        <div class="container">
+          <div class="section-title">
+            <h2 data-i18n="locationTitle">Find us fast</h2>
+            <p data-i18n="locationSubtitle">
+              Paste your Google Maps embed link in the config.
+            </p>
+          </div>
+          <div class="map-card">
+            <iframe
+              id="map-embed"
+              title="Google Maps"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <div class="map-actions">
+              <span data-i18n="locationHint">Open full map directions.</span>
+              <a id="map-link" href="#" target="_blank" rel="noopener" data-i18n="locationLink">
+                Open in Google Maps
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="faq">
+        <div class="container">
+          <div class="section-title">
+            <h2 data-i18n="faqTitle">FAQ</h2>
+            <p data-i18n="faqSubtitle">Quick answers for a smooth rental.</p>
+          </div>
+          <div class="faq-list">
+            <details>
+              <summary data-i18n="faq1Q">Do I need a driver license?</summary>
+              <p data-i18n="faq1A">
+                A valid ID is enough for most rentals. Ask us if a license is required in
+                your city.
+              </p>
+            </details>
+            <details>
+              <summary data-i18n="faq2Q">Is fuel included?</summary>
+              <p data-i18n="faq2A">
+                Scooters are delivered with a full tank. You only pay for what you use.
+              </p>
+            </details>
+            <details>
+              <summary data-i18n="faq3Q">Can I extend my rental?</summary>
+              <p data-i18n="faq3A">
+                Yes, just message us on WhatsApp and we will update your plan.
+              </p>
+            </details>
+            <details>
+              <summary data-i18n="faq4Q">What about helmets?</summary>
+              <p data-i18n="faq4A">
+                Helmets and basic safety gear are included for every rider.
+              </p>
+            </details>
+            <details>
+              <summary data-i18n="faq5Q">Do you offer delivery?</summary>
+              <p data-i18n="faq5A">
+                We can arrange pickup or drop-off within the central zone.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container contact-grid">
+          <div>
+            <div class="section-title">
+              <h2 data-i18n="contactTitle">Contact us</h2>
+              <p data-i18n="contactSubtitle">We reply in minutes during business hours.</p>
+            </div>
+            <div class="contact-card">
+              <p>
+                <strong data-i18n="contactPhoneLabel">Phone</strong>
+                <span id="contact-phone"></span>
+              </p>
+              <p>
+                <strong data-i18n="contactWhatsAppLabel">WhatsApp</strong>
+                <span id="contact-whatsapp"></span>
+              </p>
+              <p>
+                <strong data-i18n="contactHoursLabel">Opening hours</strong>
+                <span id="contact-hours"></span>
+              </p>
+              <p>
+                <strong data-i18n="contactAddressLabel">Address</strong>
+                <span id="contact-address"></span>
+              </p>
+            </div>
+          </div>
+          <form class="contact-form" id="contact-form">
+            <label>
+              <span data-i18n="formName">Name</span>
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              <span data-i18n="formContact">Phone or email</span>
+              <input type="text" name="contact" required />
+            </label>
+            <label>
+              <span data-i18n="formMessage">Message</span>
+              <textarea name="message" rows="4" required></textarea>
+            </label>
+            <button class="btn primary" type="submit" data-i18n="formSubmit">
+              Send message
+            </button>
+            <p class="form-success" role="status" aria-live="polite" data-i18n="formSuccess"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p data-i18n="footerText">
+          SwiftRide Scooter Rentals. Safe rides, friendly service, city-ready scooters.
+        </p>
+      </div>
+    </footer>
+
+    <div class="fab" aria-label="Quick actions">
+      <a class="fab-btn whatsapp" id="fab-whatsapp" href="#" aria-label="WhatsApp"></a>
+      <a class="fab-btn call" id="fab-call" href="#" aria-label="Call"></a>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
